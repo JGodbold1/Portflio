@@ -7,7 +7,7 @@ import mysqlLogo from "../assets/mysql.png"
 import pythonLogo from "../assets/python.png"
 import tailwindLogo from "../assets/tailwind.svg"
 
-    function Header() {
+    function Hero() {
         return (
 
             <div className="flex items-center justify-center flex-col text-center pt-20 pb-6 gap-4">
@@ -15,7 +15,7 @@ import tailwindLogo from "../assets/tailwind.svg"
 
                 <div className="text-base/6 text-white">
                     <h1>Web + Application Developer<br/>Located in Chicago,Il</h1>
-                    <p>BS Computer Science - Software Development<br/>Depaul University</p>
+                    <p>BS Computer Science - Software Development<br/>DePaul University</p>
                 </div>
 
                 {/* project logos - on click filter projects on the right to filter*/}
@@ -51,4 +51,4 @@ import tailwindLogo from "../assets/tailwind.svg"
         )
     }
 
-export default Header;
+export default Hero;

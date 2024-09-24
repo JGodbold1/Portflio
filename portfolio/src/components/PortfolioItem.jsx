@@ -16,7 +16,7 @@ function PortfolioItem({ title, imgUrl, stack }) {
     return (
         <>
 
-            <div onClick={handleExpand} className="w-90 rounded-md overflow-hidden bg-gray-900 bg-opacity-70 shadow-lg">
+            <div onClick={handleExpand} className="w-90 overflow-hidden bg-gray-900 bg-opacity-70 drop-shadow-lg">
                 <img
                     src={imgUrl}
                     alt="portfolio"
