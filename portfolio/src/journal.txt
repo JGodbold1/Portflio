@@ -1,0 +1,5 @@
+october 10, 2024
+installed GSAP api for animations
+
+
+
