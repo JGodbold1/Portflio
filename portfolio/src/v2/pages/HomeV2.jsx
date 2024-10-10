@@ -1,7 +1,8 @@
 import React from "react";
 import Header from '../components/Header.jsx'
 import HeroName from "../components/HeroName.jsx";
-import Navigation from "../components/Navigation.jsx"
+import Navigation from "../components/Navigation.jsx";
+import Icons from "../components/Icons.jsx";
 
 function HomeV2() {
     return (
@@ -9,7 +10,9 @@ function HomeV2() {
             {/* Hero */}
             <Header/>
             <HeroName/>
+            <Icons/>
             <Navigation/>
+
         </div>
     )
 }
