@@ -4,17 +4,17 @@ import github from '../../assets/github.png';
 
 function Header() {
     return (
-        <header className="w-full bg-black p-4 flex justify-between items-center">
+        <header className="w-full bg-black p-4 flex justify-between">
 
             {/* message*/}
-
+            <p className="text-white">This is place holder text</p>
 
             {/* logo*/}
-            <p className="text-white font-blenda"> Jayden</p>
+            <p className="text-white text-center absolute left-1/2 transform -translate-x-1/2"> Jayden</p>
 
             {/* icons*/}
 
-            <nav className="flex space-x-4">
+            <nav className="flex space-x-4 align-right">
                 {/* Social Icons */}
                 <a href="https://www.linkedin.com/in/jayden-godbold-641014241/" target="_blank"
                    rel="noopener noreferrer"

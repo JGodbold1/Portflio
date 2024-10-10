@@ -5,6 +5,7 @@ import Contact from './v2/pages/ContactV2.jsx';
 import About from './v2/pages/AboutV2.jsx';
 import Home from './v2/pages/HomeV2.jsx';
 import Projects from "./v2/pages/ProjectsV2.jsx";
+import ProWork from "./v2/pages/ProWork.jsx";
 import Header from './v2/components/Header.jsx'
 
 function AppV2(){
@@ -16,6 +17,7 @@ function AppV2(){
                     <Route path="/contact" element={<Contact/>}/>
                     <Route path="/about" element={<About/>}/>
                     <Route path="/projects" element={<Projects/>}/>
+                    <Route path="/prowork" element={<ProWork/>}/>
                 </Routes>
             </Router>
         </>

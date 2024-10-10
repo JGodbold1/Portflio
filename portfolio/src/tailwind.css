@@ -8,3 +8,38 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Roxborough';
+    src: url('portfolio/public/fonts/Roxborough.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UniSans';
+    font-weight: 900; /* Heavy */
+    font-style: normal;
+    src: url('portfolio/public/fonts/UniSansHeavy.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'UniSans';
+    font-weight: 900; /* Heavy Italic */
+    font-style: italic;
+    src: url('portfolio/public/fonts/UniSansHeavyItalic.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'UniSans';
+    font-weight: 100; /* Thin */
+    font-style: normal;
+    src: url('portfolio/public/fonts/UniSansThin.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'UniSans';
+    font-weight: 100; /* Thin Italic */
+    font-style: italic;
+    src: url('portfolio/public/fonts/UniSansThinItalic.otf') format('truetype');
+}

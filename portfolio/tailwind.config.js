@@ -6,7 +6,11 @@ export default {
   theme: {
     extend: {
       //code below is for fonts, look @ 5:30 forrest Knight video
-      fontFamily:{iter: ['inter','serif'],}
+      fontFamily:{
+        iter: ['inter','serif'],
+        roxborough: ['Roxborough', 'serif'],
+        unisans: ['UniSans', 'sans-serif'],
+      }
     },
   },
   plugins: [],

@@ -1,6 +1,6 @@
 function AboutV2() {
     return (
-        <div> hello world</div>
+        <div> AboutV2</div>
     )
 }
 export default AboutV2;
