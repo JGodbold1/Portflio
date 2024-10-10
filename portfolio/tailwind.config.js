@@ -6,10 +6,7 @@ export default {
   theme: {
     extend: {
       //code below is for fonts, look @ 5:30 forrest Knight video
-      fontFamily:{iter: ['inter','serif'],},
-      fontSize:{
-        'mega': '10rem'
-      },
+      fontFamily:{iter: ['inter','serif'],}
     },
   },
   plugins: [],

@@ -26,7 +26,7 @@ function NavBar() {
                 Hi! My name is Jayden
             </div>
 
-            {/* Navigation */}
+            {/* Navigation.jsx */}
             <nav className="flex space-x-4">
                 <a onClick={navAbout} className="text-white text-lg hover:text-gray-400 text-center">
                     About
