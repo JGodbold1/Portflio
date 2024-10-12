@@ -4,13 +4,13 @@ import github from '../../assets/github.png';
 
 function Header() {
     return (
-        <header className="w-full bg-black p-4 flex justify-between">
+        <header className="w-full p-4 flex justify-between">
 
             {/* message*/}
-            <p className="text-white">This is place holder text</p>
+            <p className="text-white">Chicago IL</p>
 
             {/* logo*/}
-            <p className="text-white text-center absolute left-1/2 transform -translate-x-1/2"> Jayden</p>
+            <p className="text-white text-center absolute left-1/2 transform -translate-x-1/2">Bachelors of Computer Science DePaul University</p>
 
             {/* icons*/}
 
@@ -23,7 +23,7 @@ function Header() {
                     <img src={linkedin} alt="LinkedIn" className="w-full h-full object-cover invert"/>
                 </a>
                 <a href="https://github.com" target="_blank" rel="noopener noreferrer"
-                   className="w-8 h-8 bg-gray-800 rounded-full flex items-center justify-center text-white">
+                   className="w-8 h-8">
                     {/* GitHub Icon (example) */}
                     <img src={github} alt="GitHub" className="w-full h-full object-cover invert"/>
                 </a>
