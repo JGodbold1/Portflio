@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Hero from './components/Hero.jsx';
 import Portfolio from './components/Portfolio';
-import Journey from './components/Journey.jsx';
+import Timeline from './components/Timeline.jsx';
 import NavBar from "./components/NavBar.jsx";
 import topography from './assets/topography.svg';
 import Contact from './pages/Contact.jsx';

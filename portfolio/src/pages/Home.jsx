@@ -1,7 +1,7 @@
 import React from 'react';
 import topography from "../assets/topography.svg";
 import Hero from "../components/Hero.jsx";
-import Journey from "../components/Journey.jsx";
+import Timeline from "../components/Timeline.jsx";
 import Portfolio from "../components/Portfolio.jsx";
 
 function Home() {
@@ -23,16 +23,16 @@ function Home() {
             <div className="bg-gray-800">
 
 
-                {/* Content: Journey and Portfolio Side by Side */}
-                <div className="w-full max-w-full px-4 py-8 flex flex-col md:flex-row gap-8">
-                    {/* Journey Section */}
+                {/* Content: Timeline and Portfolio Side by Side */}
+                <div className="w-full max-w-full py-8 flex flex-col md:flex-row gap-8">
+                    {/* Timeline Section */}
                     <div className="flex-1 p-4">
                         <h1 className="text-center text-2xl text-white pt-4">Timeline</h1>
-                        <Journey/>
+                        <Timeline/>
                     </div>
 
                     {/* Portfolio Section */}
-                    <div className="flex-1  p-4">
+                    <div className="flex-1">
                         <h1 className="text-center text-2xl text-white pt-4">Checkout My Work</h1>
                         <Portfolio/>
                     </div>

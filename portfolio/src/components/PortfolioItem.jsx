@@ -1,35 +1,39 @@
 import React, { useState } from 'react';
 import ExpandedPortfolioItem from './ExpandedPortfolioItem.jsx';
 
-
 function PortfolioItem({ title, imgUrl, stack }) {
+    // State to manage the expanded view of the portfolio item
     const [isExpanded, setIsExpanded] = useState(false);
 
+    // Function to handle expanding the item
     const handleExpand = () => {
         setIsExpanded(true);
     };
 
+    // Function to handle closing the expanded item
     const handleClose = () => {
         setIsExpanded(false);
     };
-//border-2 border-stone-900 border-opacity-20
+
     return (
         <>
-
-            <div onClick={handleExpand} className="w-90 overflow-hidden bg-gray-900 bg-opacity-70 drop-shadow-lg">
+            {/* Main portfolio item container */}
+            <div onClick={handleExpand} className="w-full bg-gray-900 bg-opacity-70 drop-shadow-lg overflow-hidden">
+                {/* Image section with sharp edges */}
                 <img
                     src={imgUrl}
                     alt="portfolio"
-                    className="w-full h-36 md:h-52 object-cover cursor-pointer"
-
+                    className="w-full h-max object-cover cursor-pointer" // Full width, specific height, cover object-fit
                 />
-                <div className="w-full p-2 ">
+                <div className="w-full p-4">
+                    {/* Title of the project */}
                     <h3 className="text-white text-lg md:text-xl mb-2 md:mb-3 font-semibold">{title}</h3>
-                    <p className="flex flex-wrap gap-8 flex-row items-center justify-start text-white text-xs md:text-sm">
+                    {/* Stack technologies displayed as inline blocks */}
+                    <p className="flex flex-wrap gap-4 items-center text-white text-xs md:text-sm">
                         {stack.map((item, index) => (
                             <span
                                 key={index}
-                                className="inline-block px-2 py-1 font-semibold border-2 border-white rounded-md"
+                                className="inline-block px-2 py-1 font-semibold border-2 border-white"
                             >
                                 {item}
                             </span>

@@ -23,7 +23,7 @@ function NavBar() {
         <header className="w-full bg-gray-900 p-4 flex justify-between items-center">
             {/* Logo or Title */}
             <div className="text-white text-xl font-bold" onClick={navHome}>
-                Hi! My name is Jayden
+                JG
             </div>
 
             {/* Navigation */}
